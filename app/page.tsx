@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Map, Plane } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
       <section id="how-it-works" className="py-20 px-4 bg-white/50 relative overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img 
+          <Image
             src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" 
             alt="Data broadcasting background"
             className="w-full h-full object-cover opacity-10 blur-sm"
