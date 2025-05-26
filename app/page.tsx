@@ -244,7 +244,7 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
                 <Plane className="h-6 w-6 text-emerald-600" />
               </div>
@@ -252,7 +252,7 @@ export default function Home() {
               <p className="text-gray-600">Advanced AI-powered drones that automatically scout and track wildlife movements across vast safari territories.</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-6">
                 <Map className="h-6 w-6 text-amber-600" />
               </div>
@@ -260,7 +260,7 @@ export default function Home() {
               <p className="text-gray-600">Real-time interactive maps displaying animal locations, updated continuously for the most accurate safari experience.</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
                 <ArrowRight className="h-6 w-6 text-orange-600" />
               </div>
@@ -268,7 +268,7 @@ export default function Home() {
               <p className="text-gray-600">Immediate data transmission to all safari vehicles, ensuring no wildlife encounter is missed.</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-emerald-600 font-bold">📡</span>
               </div>
@@ -276,7 +276,7 @@ export default function Home() {
               <p className="text-gray-600">Sophisticated main station that processes and distributes wildlife data across the entire safari network.</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-amber-600 font-bold">🚙</span>
               </div>
@@ -284,7 +284,7 @@ export default function Home() {
               <p className="text-gray-600">Seamless integration with safari jeep systems, displaying data on easy-to-read in-vehicle displays.</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-orange-600 font-bold">🦁</span>
               </div>
