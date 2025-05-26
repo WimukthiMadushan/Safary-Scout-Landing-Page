@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Map, Plane } from "lucide-react";
 import Image from "next/image";
+import peacock from "./Images/Peacock.png"
 
 export default function Home() {
   return (
@@ -108,7 +109,7 @@ export default function Home() {
             {/* Right Side - Image Gallery */}
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
-                {/* Large Image - Elephant */}
+                {/* Large Image - Cheetah */}
                 <div className="col-span-2 relative overflow-hidden rounded-2xl shadow-2xl group">
                   <img 
                     src="https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?auto=format&fit=crop&w=800&q=80" 
@@ -117,17 +118,18 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
-                    <p className="font-semibold">Majestic Elephants</p>
+                    <p className="font-semibold">Majestic Cheetah</p>
                     <p className="text-sm opacity-90">Sri Lankan Wildlife</p>
                   </div>
                 </div>
 
                 {/* Peacock Image */}
                 <div className="relative overflow-hidden rounded-xl shadow-lg group">
-                  <img 
-                    src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=400&q=80" 
+                  <Image
+                    src={peacock}
                     alt="Colorful peacock displaying feathers"
                     className="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110"
+                    style={{ width: '100%', height: '128px', objectFit: 'cover' }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                   <div className="absolute bottom-2 left-2 text-white">
