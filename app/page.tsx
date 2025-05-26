@@ -30,6 +30,7 @@ export default function Home() {
         </div>
       </header>
 
+
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
@@ -63,17 +64,114 @@ export default function Home() {
         </div>
       </section>
 
+      {/* What is Safari Scout Section */}
+      <section className="py-16 px-4 bg-white/80 backdrop-blur-sm">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Text Content */}
+            <div className="space-y-6">
+              <div>
+                <Badge className="mb-4 bg-emerald-100 text-emerald-800 hover:bg-emerald-200">
+                  🌿 About Safari Scout
+                </Badge>
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-700 via-amber-600 to-orange-600 bg-clip-text text-transparent">
+                  What is Safari Scout?
+                </h2>
+              </div>
+              <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Safari Scout is a <span className="font-semibold text-emerald-700">guidance drone</span> designed to 
+                  enhance the safety, connectivity, and overall experience of tourists exploring 
+                  safari areas in Sri Lanka by integrating advanced technologies.
+                </p>
+                <p>
+                  Safari Scout provides <span className="font-semibold text-amber-700">real-time information</span> and 
+                  emergency assistance, ensuring a seamless and enriching travel experience.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-4 pt-4">
+                <div className="flex items-center space-x-2 bg-emerald-50 px-4 py-2 rounded-full">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                  <span className="text-emerald-700 font-medium">Enhanced Safety</span>
+                </div>
+                <div className="flex items-center space-x-2 bg-amber-50 px-4 py-2 rounded-full">
+                  <span className="w-2 h-2 bg-amber-500 rounded-full"></span>
+                  <span className="text-amber-700 font-medium">Real-time Connectivity</span>
+                </div>
+                <div className="flex items-center space-x-2 bg-orange-50 px-4 py-2 rounded-full">
+                  <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
+                  <span className="text-orange-700 font-medium">Emergency Assistance</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Image Gallery */}
+            <div className="relative">
+              <div className="grid grid-cols-2 gap-4">
+                {/* Large Image - Elephant */}
+                <div className="col-span-2 relative overflow-hidden rounded-2xl shadow-2xl group">
+                  <img 
+                    src="https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?auto=format&fit=crop&w=800&q=80" 
+                    alt="Majestic elephant in Sri Lankan safari"
+                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="font-semibold">Majestic Elephants</p>
+                    <p className="text-sm opacity-90">Sri Lankan Wildlife</p>
+                  </div>
+                </div>
+
+                {/* Peacock Image */}
+                <div className="relative overflow-hidden rounded-xl shadow-lg group">
+                  <img 
+                    src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=400&q=80" 
+                    alt="Colorful peacock displaying feathers"
+                    className="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                  <div className="absolute bottom-2 left-2 text-white">
+                    <p className="text-sm font-medium">Peacocks</p>
+                  </div>
+                </div>
+
+                {/* Safari Landscape */}
+                <div className="relative overflow-hidden rounded-xl shadow-lg group">
+                  <img 
+                    src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=400&q=80" 
+                    alt="Sri Lankan safari landscape"
+                    className="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                  <div className="absolute bottom-2 left-2 text-white">
+                    <p className="text-sm font-medium">Safari Views</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Floating Elements */}
+              <div className="absolute -top-4 -right-4 w-20 h-20 bg-emerald-200 rounded-full opacity-60 animate-pulse"></div>
+              <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-amber-200 rounded-full opacity-60 animate-pulse animation-delay-2000"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How It Works Section */}
       <section id="how-it-works" className="py-20 px-4 bg-white/50 relative overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" 
-            alt="Data broadcasting background"
-            className="w-full h-full object-cover opacity-10 blur-sm"
-          />
-          <div className="absolute inset-0 bg-white/70"></div>
-        </div>
+  <div className="absolute inset-0 relative">
+    <Image
+      src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80"
+      alt="Data broadcasting background"
+      fill
+      className="object-cover opacity-10 blur-sm"
+    />
+    <div className="absolute inset-0 bg-white/70"></div>
+  </div>
+</div>
+
         
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-16">
