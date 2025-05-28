@@ -29,6 +29,7 @@ export default function Home() {
             <a href="#features" className="text-gray-700 hover:text-emerald-600 transition-colors">Features</a>
             <a href="#how-it-works" className="text-gray-700 hover:text-emerald-600 transition-colors">How It Works</a>
             <a href="#Explorers" className="text-gray-700 hover:text-emerald-600 transition-colors">Explorers</a>
+            <a href="#about-us" className="text-gray-700 hover:text-emerald-600 transition-colors">About Us</a>
             <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition-colors">Contact</a>
           </nav>
           <Button className="bg-emerald-600 hover:bg-emerald-700 text-white cursor-pointer">
