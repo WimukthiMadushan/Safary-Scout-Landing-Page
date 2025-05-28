@@ -4,7 +4,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Map, Plane } from "lucide-react";
-import Image from "next/image";
+import Alwis from "./Images/Alwis.jpg"
+import Dinithi from "./Images/Dinithi.jpg"
+import Indunuwan from "./Images/Indunuwan.jpg"
+import Rajapakshe from "./Images/Rajapakshe.jpg"
+import Shashika from "./Images/Shashika.jpg"
+import Vaffa from "./Images/Vaffa.jpg"
 
 export default function Home() {
   return (
@@ -67,7 +72,7 @@ export default function Home() {
       <section id="how-it-works" className="py-20 px-4 bg-white/50 relative overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <Image
+          <img
             src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" 
             alt="Data broadcasting background"
             className="w-full h-full object-cover opacity-10 blur-sm"
@@ -240,7 +245,84 @@ export default function Home() {
       ))}
     </div>
   </div>
-</section>
+      </section>
+
+      {/*About Us */}
+      <section className="py-20 bg-white" id="about-us">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-4xl font-bold text-gray-800 mb-16">About Us</h2>
+
+    {/* Supervisors */}
+    <div className="grid md:grid-cols-2 gap-12 mb-20">
+      <div className="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+        <div className="flex flex-col items-center space-y-4">
+          <img src={Shashika.src} alt="Ms. Shashika Lokuliyana" className="rounded-full w-32 h-32 object-cover shadow" />
+          <h3 className="text-xl font-semibold text-gray-800">Ms. Shashika Lokuliyana</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Project Supervisor<br/>
+            Senior Lecturer<br/>
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        </div>
+      </div>
+      <div className="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+        <div className="flex flex-col items-center space-y-4">
+          <img src={Dinithi.src} alt="Ms. Dinithi Pandithage" className="rounded-full w-32 h-32 object-cover shadow" />
+          <h3 className="text-xl font-semibold text-gray-800">Ms. Dinithi Pandithage</h3>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Project Co-Supervisor<br/>
+            Lecturer<br/>
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Team Members */}
+    <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300">
+        <img src={Rajapakshe.src} alt="Rajapaksha P- K-" className="mx-auto rounded-full w-24 h-24 object-cover mb-3 shadow" />
+              <h4 className="text-lg font-medium text-gray-800">Rajapaksha P.K</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        <p className="text-gray-600 text-sm">IT21255724<br/>(Leader)</p>
+      </div>
+      <div className="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300">
+        <img src={Vaffa.src} alt="vaffa M.A.M.A" className="mx-auto rounded-full w-24 h-24 object-cover mb-3 shadow" />
+              <h4 className="text-lg font-medium text-gray-800">Vaffa M.A.M.A</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        <p className="text-gray-600 text-sm">IT21307812</p>
+      </div>
+      <div className="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300">
+        <img src={Indunuwan.src} alt="Indunuwan KMLG-U" className="mx-auto rounded-full w-24 h-24 object-cover mb-3 shadow" />
+              <h4 className="text-lg font-medium text-gray-800">Indunuwan K.M.L.G.U</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        <p className="text-gray-600 text-sm">IT21454578</p>
+      </div>
+      <div className="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300">
+        <img src={Alwis.src} alt="Alwis.M.A.M.D.S" className="mx-auto rounded-full w-24 h-24 object-cover mb-3 shadow" />
+              <h4 className="text-lg font-medium text-gray-800">Alwis M.A.M.D.S</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+            Faculty of Computing<br/>
+            Computer Systems Engineering
+          </p>
+        <p className="text-gray-600 text-sm">IT21260360</p>
+      </div>
+    </div>
+  </div>
+      </section>
+      
+
 
 
 
