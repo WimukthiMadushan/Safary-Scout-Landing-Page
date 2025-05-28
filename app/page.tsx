@@ -173,6 +173,7 @@ export default function Home() {
           <Image
             src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" 
             alt="Data broadcasting background"
+            fill
             className="w-full h-full object-cover opacity-10 blur-sm"
           />
           <div className="absolute inset-0 bg-white/70"></div>
@@ -467,14 +468,13 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">Contact</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Sales</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Partnership</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              </ul>
-            </div>
+  <h4 className="text-lg font-semibold mb-4">Contact</h4>
+  <ul className="space-y-2 text-gray-400">
+    <li><span className="hover:text-white transition-colors">Safari Scout</span></li>
+    <li><a href="mailto:it21255724@my.sliit.lk" className="hover:text-white transition-colors">it21255724@my.sliit.lk</a></li>
+    <li><a href="tel:+94765499908" className="hover:text-white transition-colors">0765499908</a></li>
+  </ul>
+</div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; 2024 Safari Scout. All rights reserved. Revolutionizing wildlife experiences worldwide.</p>
