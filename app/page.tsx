@@ -12,12 +12,6 @@ import Indunuwan from "./Images/Indunuwan.jpg"
 import Rajapakshe from "./Images/Rajapakshe.jpg"
 import Shashika from "./Images/Shashika.jpg"
 import Vaffa from "./Images/Vaffa.jpg"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import CustomDropdown from "./CustomDropdown";
 
 export default function Home() {
