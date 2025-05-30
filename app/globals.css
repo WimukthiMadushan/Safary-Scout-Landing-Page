@@ -58,6 +58,13 @@ html {
   }
 }
 
+[data-radix-popper-content-wrapper] {
+  position: static !important;
+  inset: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

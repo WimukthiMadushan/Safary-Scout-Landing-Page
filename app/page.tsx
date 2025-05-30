@@ -12,6 +12,13 @@ import Indunuwan from "./Images/Indunuwan.jpg"
 import Rajapakshe from "./Images/Rajapakshe.jpg"
 import Shashika from "./Images/Shashika.jpg"
 import Vaffa from "./Images/Vaffa.jpg"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import CustomDropdown from "./CustomDropdown";
 
 export default function Home() {
   return (
@@ -54,12 +61,20 @@ export default function Home() {
               delivered directly to your safari vehicle's intelligent mapping system.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg cursor-pointer">
-                Start Your Safari <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-4 text-lg cursor-pointer">
-                Watch Demo
-              </Button>
+              <CustomDropdown/>
+            <a
+                href="https://youtube.com/@safariscout-n4x?si=sDCpIMqmBhxt9YkM"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-4 text-lg cursor-pointer"
+                >
+                  Watch Demo
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -471,7 +486,7 @@ export default function Home() {
   <h4 className="text-lg font-semibold mb-4">Contact</h4>
   <ul className="space-y-2 text-gray-400">
     <li><span className="hover:text-white transition-colors">Safari Scout</span></li>
-    <li><a href="mailto:it21255724@my.sliit.lk" className="hover:text-white transition-colors">it21255724@my.sliit.lk</a></li>
+    <li><a href="mailto:it21255724@my.sliit.lk" className="hover:text-white transition-colors">rp262.safariscout@gmail.com</a></li>
     <li><a href="tel:+94765499908" className="hover:text-white transition-colors">0765499908</a></li>
   </ul>
 </div>
